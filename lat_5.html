@@ -1,0 +1,135 @@
+<html>
+<head><title>Dilla's web</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="frame_popup" class="frame_popup">
+<a href="#" onclick="tutup(0)">
+<div id="tutup">&times;</div></a>
+	<div id="popup">
+		<div id="judul_popup">Informasi Seputar OOTD</div>
+		<div id="text_popup">
+		
+		<img src="fashion.jpg" style="width:35%" align="center">
+		<p> Ini adalah outfit untuk seperti garden party. Disini kita bisa mengkolaborasikan dengan skirt yang sedikit panjang,
+		kemudian memakai semacam T-shirt,lalu memakai heels atau wedges yang santai. Tambahkan dengan tampilan make up yang sedikit glamour. 
+		Lalu pakailah belt bewarna silver atau gold.</p>
+		</div>
+	</div>
+</div>
+
+<div id="frame_popup" class="frame_popup">
+	<a href="#" onclick="tutup(1)">
+	<div id="tutup">&times;</div></a>
+		<div id="popup">
+			<div id="judul_popup">Informasi Seputar OOTD</div>
+			<div id="text_popup">
+			<img src="index.jpg" style="width:35%" align="center">
+			<br><p> Seperti inilah tema casual yang sangat simple dan gak ribet. Disini seperti pada gambar, kalian bisa memakai
+			celana panjang/jeans. Kemudian pakai t-shirt dilengkapi dengan outer panjang. Dan tambahlah aksesoris seperti topi dan kacamata.
+			Pakailah sepatu sneakers jika ingin santai.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="frame_popup" class="frame_popup">
+	<a href="#" onclick="tutup(2)">
+	<div id="tutup">&times;</div></a>
+		<div id="popup">
+			<div id="judul_popup">Informasi Seputar OOTD</div>
+			<div id="text_popup">
+			<img src="images.jpg" style="width:35%" align="center">
+			<br><p> Nah kalau yang ini dipakai saat kalian ingin bersantai(jogging). Disini kalian bisa memakai sweater, 
+			kemudian pakai joger pants. dan pakai lah sepatu untuk olahraga (sneakers). Untuk kerudung menyesuaikna pakailah. 
+			pilih kerudung senyaman mungkin.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="frame_popup" class="frame_popup">
+	<a href="#" onclick="tutup(3)">
+	<div id="tutup">&times;</div></a>
+		<div id="popup">
+			<div id="judul_popup">Informasi Seputar Geti</div>
+			<div id="text_popup">
+			<img src="a.jpg" style="width:35%" align="center">
+			<br><p> Nah kalau yang ini sebenarnya simple dipakai saat kalian ingin jalan - jalan tapi tetap ingin terlihat elegant.
+			Disini kalian bisa pakai dress / outer panjang tertutup yang ada unsur warna hitam-gold atau hitam-silver supaya
+			terkesan ada glamournya. kerudung menyesuaikan(pilih bahan yang flowly) dan tmbahkan pakai topi.</p>
+			</div>
+		</div>
+	</div>
+
+<div id="header">
+<h1 align="center" >Geti Tulungagung</h1>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="#">home</a></li>
+		<li><a href="#">Menu</a>
+			<ul>
+				<li><a href="galeri.html">Gambar Geti</a></li>
+			</ul></li>
+		<li><a href="agenda.html">agenda</a></li>
+			<ul>
+				<li><a href="#">Jadwal toko </a><li>
+			</ul></li>
+	</ul>
+</div>
+<div id="benteng">
+		<div id="sidebar">
+			<div id="judul_sam">Oleh-oleh murah</div>
+			<ul>
+				<li><a href="#">Cemilan enak</a></li>
+				<li><a href="#">Referensi oleh-oleh</a></li>
+			</ul>
+			<div id="judul_sam">Style</div>
+			<ul>
+				<li><a href="#">Segala sesuatu</a></li>
+				<li><a href="#">Tempat oleh-oleh</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Diskon 50% </a></li>
+			</ul>
+		</div>
+		<div id="konten">
+		
+			<h1>Geti Khas Tulungagung</h1>
+			<br><p>Geti adalah salah satu makanan khas Kabupaten Tulungagung ini terbuat dari kacang tanah,
+			adapula yang terbuat dari wijen ataupun gabungan dari keduanya. 
+			Kacang tanah dan biji wijen di rekatkan dengan rebusan gula merah yang pekat dan kemudian dikeringkan.
+			Daerah yang banyak memproduksi geti di Tulungagung adalah Kecamatan Gondang dan beberapa di Kecamatan Tulungagung.
+			yang paling terkenal adalah produksi geti dari wilayah kecamatan sumbergempol di desa jabalsari tulungagung. 
+			Rasa yang disajikan dari Geti ini manis yang berasal dari gula merah serta gurih dari kacang tanah dan biji wijen</p>
+			<br>
+			
+			<div id="galery">
+			<a href="#" onclick="modal(0)"><img src="Geti-1.jpg" style="align:center;"></a></div>
+
+		
+			<br>
+			<br>
+			
+			
+ <br>
+ 
+		</div>
+		
+</div>
+			
+<div id="footer"></div>
+
+		
+</body>
+
+</html>
+<script>
+	var frame=document.getElementsByClassName('frame_popup');
+	function modal(n){
+		frame[n].style.display="block";
+	}
+	function tutup(n){
+		frame[n].style.display="none";
+	}
+</script>
